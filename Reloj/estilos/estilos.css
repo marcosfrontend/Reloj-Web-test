@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-image: url(/img/pexels-luis-del-río-15286.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrap {
+    width: 95%;
+   
+    margin: 20px auto; 
+    padding: 20px 0;
+    color: white;  
+    
+}
+
+.description{
+    width: 50%;
+    margin: 20px 60px;
+    float: left;
+    border: 1px solid  rgba(51, 188, 51, 0.445);
+    margin-top:  55px;
+   
+   
+}
+
+.card{
+    max-width: 400px;
+    width: 70%;
+    margin: 55px 800px;
+    padding: 20px 0;
+    border: 1px solid  rgba(51, 188, 51, 0.445);
+    box-shadow: 10px 5px 5px rgba(51, 188, 51, 0.564);
+}
+.head{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.widget {
+    width: 80%;
+    margin:30px auto;
+    text-align: center;
+}
+
+.widget p {
+
+    display: inline-block;
+    line-height: 1rem;
+    
+}
+
+.fecha {
+    background-color: rgba(51, 188, 51, 0.307);
+    border: 3px solid  rgba(51, 188, 51, 0.445);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.reloj {
+    background-color: rgba(51, 188, 51, 0.307);
+    border: 3px solid  rgba(51, 188, 51, 0.445);
+    border-radius: 90px;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+.reloj .caja_segundos {
+    display: inline-block;
+}
+
+.reloj .segundos,
+.ampm {
+    font-size:60%;
+    display: block;
+}
+
